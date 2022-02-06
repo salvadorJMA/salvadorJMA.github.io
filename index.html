@@ -1,0 +1,403 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <title>S4lbIX</title>
+</head>
+
+<body>
+    <!-- start settings box -->
+    <div class="settings-box ">
+        <div class="toggle-settings">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+
+        <div class="settings-container">
+            <div class="options-box">
+                <h4>Colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="#fc4445"></li>
+                    <li data-color="#0855c8"></li>
+                    <li data-color="#855dcb"></li>
+                    <li data-color=" #41b3a3"></li>
+                    <li data-color="#ff0050"></li>
+                </ul>
+            </div>
+
+            <div class="options-box">
+                <h4>Random background</h4>
+                <div class="random-background">
+                    <span class="yes " data-option="yes">Yes</span>
+                    <span class="no active" data-option="false">No</span>
+                </div>
+            </div>
+
+            <div class="options-box">
+                <h4>Show bullets</h4>
+                <div class="showbullets">
+                    <span class="yes active" data-option="show">show</span>
+                    <span class="no" data-option="hide"> hide </span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- start nav bullets -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".aboutus">
+            <div class="tooltip">
+                About me
+            </div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tooltip">
+                My skills
+            </div>
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="tooltip">
+                Some of me
+            </div>
+        </div>
+        <div class="bullet" data-section=".testi">
+            <div class="tooltip">
+                Testimonials
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- start landing page -->
+    <section class="landing-page" id="home">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header wow fadeInRight">
+                <div class="logo">Special template</div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li> <a href="#home" class="active">Home</a> </li>
+                        <li><a href="#about" data-section=".aboutus">About</a></li>
+                        <li><a href="#service" data-section=".skills">Skills</a></li>
+                        <li><a href="#gallery" data-section=".gallery">Gallery</a></li>
+                        <li><a href="#testi" data-section=".testi">Testimonials</a></li>
+                    </ul>
+                    <button class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+            <div class="introduction">
+                <h1>We are <span class="element"> </span> agency</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus placeat necessitatibus ex
+                    repellat
+                    tenetur quod nihil illo! Iusto quasi expedita totam magnam error excepturi blanditiis corrupti.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- start about us  -->
+    <div class="container">
+        <section class="aboutus" id="about">
+            <div class="infobox wow fadeInRight" data-wow-delay=".4s">
+                <h2>About Us</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga odio unde a. Ad, expedita architecto.
+                    Pariatur, ad veniam cupiditate doloribus quos officia accusamus mollitia amet. Consectetur magnam
+                    sapiente, deleniti quaerat quam quasi iure pariatur dolor, facere in sunt id at.</p>
+            </div>
+            <div class="img-box">
+                <img class="wow fadeInLeft" data-wow-delay=".4s" src="imgs/6.jpg" alt="about us">
+            </div>
+        </section>
+    </div>
+
+
+
+    <!-- start our skills -->
+    <section class="skills">
+        <div class="container">
+
+            <h2>Our skills</h2>
+            <div class="skill-box">
+                <div class="skillname">HTML</div>
+                <div class="skillprogress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skillname">CSS</div>
+                <div class="skillprogress">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skillname">JavaScript</div>
+                <div class="skillprogress">
+                    <span data-progress="70%"></span>
+                </div>
+            </div>
+
+
+            <div class="skill-box">
+                <div class="skillname">Python</div>
+                <div class="skillprogress">
+                    <span data-progress="55%"></span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skillname">Mysql</div>
+                <div class="skillprogress">
+                    <span data-progress="40%"></span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skillname">Php</div>
+                <div class="skillprogress">
+                    <span data-progress="10%"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- start our gallery -->
+    <section class="gallery">
+        <div class="container">
+            <h2>Our gallery</h2>
+            <div class="img-box">
+                <img src="imgs/a.jpg" alt="i01">
+                <img src="imgs/b.jpg" alt="02">
+                <img src="imgs/c.jpg" alt="03">
+                <img src="imgs/d.jpg" alt="04">
+                <img src="imgs/e.jpg" alt="05">
+                <img src="imgs/f.jpg" alt="06">
+                <img src="imgs/g.jpg" alt="07">
+                <img src="imgs/h.jpg" alt="08">
+                <img src="imgs/i.jpg" alt="09">
+                <img src="imgs/j.jpg" alt="10">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- start timeline -->
+    <section class="timeline">
+        <div class="container">
+            <div class="time-content">
+                <div class="year">2018</div>
+                <div class="left  wow fadeInRight">
+                    <div class="inner">
+                        <h3>
+                            Heading test
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse illum dicta sit aliquid eius
+                            ex architecto magnam necessitatibus dolore cumque a delectus nisi ipsa labore, ipsum earum
+                            nemo. Distinctio, amet.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="right wow fadeInleft">
+                    <div class="inner">
+                        <h3>
+                            Heading test
+
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse illum dicta sit aliquid eius
+                            ex architecto magnam necessitatibus dolore cumque a delectus nisi ipsa labore, ipsum earum
+                            nemo. Distinctio, amet.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- start our features -->
+    <section class="our-features">
+
+        <div class="container wow fadeInDown" data-wow-delay=".5s">
+            <h2>Our features</h2>
+            <div class="featbox wow fadeInRight" data-wow-delay=".1s">
+                <h4>Development</h4>
+                <img src="imgs/icon-1.svg" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, ducimus.</p>
+            </div>
+
+            <div class="featbox wow fadeInRight" data-wow-delay=".2s">
+                <h4>Development</h4>
+                <img src="imgs/icon-2.svg" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, ducimus.</p>
+            </div>
+
+            <div class="featbox wow fadeInRight" data-wow-delay=".3s">
+                <h4>Development</h4>
+                <img src="imgs/icon-3.svg" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, ducimus.</p>
+            </div>
+
+            <div class="featbox wow fadeInRight" data-wow-delay=".4s">
+                <h4>Development</h4>
+                <img src="imgs/icon-4.svg" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, ducimus.</p>
+            </div>
+
+            <div class="featbox wow fadeInRight" data-wow-delay=".5s">
+                <h4>Development</h4>
+                <img src="imgs/icon-5.svg" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, ducimus.</p>
+            </div>
+
+            <div class="featbox wow fadeInRight" data-wow-delay=".6s">
+                <h4>Development</h4>
+                <img src="imgs/icon-6.svg" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, ducimus.</p>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+
+
+    </section>
+
+    <!-- start testimonials -->
+    <div class="testi">
+        <div class="container">
+            <h2>
+                Testimonials
+            </h2>
+            <div class="ts-box wow flipInX">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, aliquid.
+                </p>
+                <div class="person">
+                    <img src="imgs/user.svg" alt="">
+                    <h4> Fady Amer </h4>
+                    <p> SEO at Company</p>
+                </div>
+
+            </div>
+
+            <div class="ts-box wow flipInX " data-wow-delay=".6s">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, aliquid.
+                </p>
+                <div class="person">
+                    <img src="imgs/user.svg" alt="">
+                    <h4> Mohamed Ibrahim </h4>
+                    <p> SEO at Company</p>
+                </div>
+
+            </div>
+
+            <div class="ts-box wow flipInX" data-wow-delay="1.2s">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, aliquid.
+                </p>
+                <div class="person">
+                    <img src="imgs/user.svg" alt="">
+                    <h4> Ahmed Ehab </h4>
+                    <p> SEO at Company</p>
+                </div>
+
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+
+    <!-- start contact us -->
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact us</h2>
+
+            <div class="form-container wow fadeInUpBig ">
+                <form action="mailto:salvadorjesus@correo.ugr.es" method="post" enctype="text/plain">
+
+                    <div class="left">
+                        <input type="text" placeholder="Your Name" name="username">
+                        <input type="text" placeholder="Your Phone" name="phone">
+                        <input type="email" placeholder="Your Mail" name="mail">
+                        <input type="text" placeholder="Your subject" name="subject">
+
+                    </div>
+
+
+                    <div class="right">
+                        <textarea name="message" placeholder="Your message ..."></textarea>
+                        <input type="submit" value="submit">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- start footer -->
+
+    <div class="footer">
+        Created With Love By Fady Amer ❤
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+        integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
