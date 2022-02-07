@@ -11,10 +11,13 @@
     <title>S4lbIX</title>
 </head>
 
-<body>
+<body >
+
+    
     <!-- start settings box -->
+    
     <div class="settings-box ">
-        <div class="toggle-settings">
+        <div >
             <i class="fas fa-cog fa-spin"></i>
         </div>
 
@@ -49,47 +52,79 @@
 
         </div>
     </div>
-
+    
 
     <!-- start nav bullets -->
-    <div class="nav-bullets">
+    <div  class="nav-bullets">
+        <div class="bullet" data-section=".landing-page">
+            <div class="tooltip">
+                Home
+            </div>
+        </div>
+        <!--
         <div class="bullet" data-section=".aboutus">
             <div class="tooltip">
                 About me
             </div>
         </div>
+        -->
         <div class="bullet" data-section=".skills">
             <div class="tooltip">
-                My skills
+                Skills
             </div>
         </div>
+        
+        <!--
         <div class="bullet" data-section=".gallery">
             <div class="tooltip">
                 Some of me
             </div>
         </div>
+        -->
+
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip">
+                Timeline
+            </div>
+        </div>
+        <!--
+        <div class="bullet" data-section=".our-features">
+            <div class="tooltip">
+                Certifications
+            </div>
+        </div>
+        -->
+        <!--
         <div class="bullet" data-section=".testi">
             <div class="tooltip">
                 Testimonials
             </div>
         </div>
+        -->
+
+        <div class="bullet" data-section=".contact">
+            <div class="tooltip">
+                Contact me
+            </div>
+        </div>
+
     </div>
 
 
 
     <!-- start landing page -->
     <section class="landing-page" id="home">
-        <div class="overlay"></div>
+        <div class="overlay" id="particles-js"></div>
         <div class="container">
             <div class="header wow fadeInRight">
-                <div class="logo">Special template</div>
+                <div class="logo">S4lbIX</div>
                 <div class="links-container">
                     <ul class="links">
                         <li> <a href="#home" class="active">Home</a> </li>
                         <li><a href="#about" data-section=".aboutus">About</a></li>
                         <li><a href="#service" data-section=".skills">Skills</a></li>
-                        <li><a href="#gallery" data-section=".gallery">Gallery</a></li>
-                        <li><a href="#testi" data-section=".testi">Testimonials</a></li>
+                        <li><a href="#gallery" data-section=".gallery">Some of me</a></li>
+                        <!-- <li><a href="#testi" data-section=".testi">Testimonials</a></li> -->
                     </ul>
                     <button class="toggle-menu">
                         <span></span>
@@ -99,11 +134,9 @@
                 </div>
             </div>
             <div class="introduction">
-                <h1>We are <span class="element"> </span> agency</h1>
+                <h1>I am an <span class="element"> </span> hacking learner</h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus placeat necessitatibus ex
-                    repellat
-                    tenetur quod nihil illo! Iusto quasi expedita totam magnam error excepturi blanditiis corrupti.
+                    Mery maricón
                 </p>
             </div>
         </div>
@@ -111,28 +144,26 @@
 
 
 
-    <!-- start about us  -->
+    <!-- start about me  -->
     <div class="container">
         <section class="aboutus" id="about">
             <div class="infobox wow fadeInRight" data-wow-delay=".4s">
-                <h2>About Us</h2>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga odio unde a. Ad, expedita architecto.
-                    Pariatur, ad veniam cupiditate doloribus quos officia accusamus mollitia amet. Consectetur magnam
-                    sapiente, deleniti quaerat quam quasi iure pariatur dolor, facere in sunt id at.</p>
+                <h2>About Me</h2>
+                <p> Comedme los huevos </p>
             </div>
             <div class="img-box">
-                <img class="wow fadeInLeft" data-wow-delay=".4s" src="imgs/6.jpg" alt="about us">
+                <img class="wow fadeInLeft" data-wow-delay=".4s" src="imgs/6.png" alt="about us">
             </div>
         </section>
     </div>
 
 
 
-    <!-- start our skills -->
+    <!-- start my skills -->
     <section class="skills">
         <div class="container">
 
-            <h2>Our skills</h2>
+            <h2>Skills</h2>
             <div class="skill-box">
                 <div class="skillname">HTML</div>
                 <div class="skillprogress">
@@ -181,18 +212,18 @@
     <!-- start our gallery -->
     <section class="gallery">
         <div class="container">
-            <h2>Our gallery</h2>
+            <h2>Some of me</h2>
             <div class="img-box">
                 <img src="imgs/a.jpg" alt="i01">
                 <img src="imgs/b.jpg" alt="02">
                 <img src="imgs/c.jpg" alt="03">
-                <img src="imgs/d.jpg" alt="04">
+ <!--               <img src="imgs/d.jpg" alt="04">
                 <img src="imgs/e.jpg" alt="05">
                 <img src="imgs/f.jpg" alt="06">
                 <img src="imgs/g.jpg" alt="07">
                 <img src="imgs/h.jpg" alt="08">
                 <img src="imgs/i.jpg" alt="09">
-                <img src="imgs/j.jpg" alt="10">
+                <img src="imgs/j.jpg" alt="10"> -->
             </div>
         </div>
     </section>
@@ -242,7 +273,7 @@
     <section class="our-features">
 
         <div class="container wow fadeInDown" data-wow-delay=".5s">
-            <h2>Our features</h2>
+            <h2>Certifications</h2>
             <div class="featbox wow fadeInRight" data-wow-delay=".1s">
                 <h4>Development</h4>
                 <img src="imgs/icon-1.svg" alt="">
@@ -286,6 +317,8 @@
     </section>
 
     <!-- start testimonials -->
+
+    <!-- 
     <div class="testi">
         <div class="container">
             <h2>
@@ -329,13 +362,13 @@
             <div class="clearfix"></div>
         </div>
     </div>
-
+-->
 
     <!-- start contact us -->
     <div class="contact">
         <div class="overlay"></div>
         <div class="container">
-            <h2>Contact us</h2>
+            <h2>Contact me</h2>
 
             <div class="form-container wow fadeInUpBig ">
                 <form action="mailto:salvadorjesus@correo.ugr.es" method="post" enctype="text/plain">
@@ -363,8 +396,8 @@
 
     <!-- start footer -->
 
-    <div class="footer">
-        Created With Love By Fady Amer ❤
+    <div id="particles-js" class="footer" >
+        S4lbIX
     </div>
 
 
@@ -397,6 +430,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
         integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
         crossorigin="anonymous"></script>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+    <script src="particles.js"></script>
     <script src="main.js"></script>
 </body>
 
