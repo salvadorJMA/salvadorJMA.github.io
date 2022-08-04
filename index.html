@@ -1,7 +1,14 @@
 <html lang="en">
 
+<script>
+    var urlLogoWeb = "imgs/LOGO12.png"
+</script>
+
 <head>
     <meta charset="UTF-8">
+    <script>
+        document.write("<link rel=" + "icon" + " type=" + "image/png"+" href= " + urlLogoWeb +">");
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/normalize.css">
@@ -9,13 +16,15 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/social-circles.css">
-    <title>S4lbIX</title>
+    <title>S4lvIX</title>
 </head>
 
-<body >
+
+<body>
 
     
     <!-- start settings box -->
+    
     
     <div class="settings-box ">
         <div >
@@ -118,13 +127,17 @@
         <div class="overlay" id="particles-js"></div>
         <div class="container">
             <div class="header wow fadeInRight">
-                <div class="logo">S4lbIX</div>
+                <script>
+                    document.write("<div> <img src="+ urlLogoWeb +" /></div>");
+                </script>
+                
                 <div class="links-container">
                     <ul class="links">
                         <li> <a href="#home" class="active">Home</a> </li>
-                        <li><a href="#about" data-section=".aboutus">About</a></li>
                         <li><a href="#service" data-section=".skills">Skills</a></li>
-                        <li><a href="#gallery" data-section=".gallery">Some of me</a></li>
+                        <li><a href="#time" data-section=".timeline">Timeline</a></li>
+                        <li><a href="#HTB" data-section=".testi">Hack the Box</a></li>
+                        <li><a href="#contact" data-section=".contact">Contact</a></li>
                         <!-- <li><a href="#testi" data-section=".testi">Testimonials</a></li> -->
                     </ul>
                     <button class="toggle-menu">
@@ -135,9 +148,9 @@
                 </div>
             </div>
             <div class="introduction">
-                <h1>I am an <span class="element"> </span> hacking learner</h1>
+                <h1>I am <span class="element"> </span> hacking learner</h1>
                 <p>
-                    Hola pueh
+                    Welcome to my personal website
                 </p>
             </div>
         </div>
@@ -145,23 +158,27 @@
 
 
 
-    <!-- start about me  -->
+    <!-- start about me  VERRRRRR-->
+    <div id="particles-js2"></div>
     <div class="container">
-        <section class="aboutus" id="about">
-            <div class="infobox wow fadeInRight" data-wow-delay=".4s">
+        <section class="aboutus" id="about" >
+            
+            <div class="infobox wow fadeInRight" data-wow-delay=".4s" >
                 <h2>About Me</h2>
-                <p> PUEHHHHHHHHHHH </p>
+                <p> esto es para describirme un poco </p>
             </div>
             <div class="img-box">
                 <img class="wow fadeInLeft" data-wow-delay=".4s" src="imgs/6.png" alt="about us">
             </div>
         </section>
     </div>
+        
+    
 
 
 
     <!-- start my skills -->
-    <section class="skills">
+    <section class="skills" >
         <div class="container">
 
             <h2>Skills</h2>
@@ -211,13 +228,14 @@
     </section>
 
     <!-- start our gallery -->
-    <section class="gallery">
+    <div id="particles-js3"></div>
+    <section class="gallery" >
         <div class="container">
             <h2>Some of me</h2>
             <div class="img-box wow fadeInDown">
-                <img src="imgs/a.jpg" alt="i01">
-                <img src="imgs/b.jpg" alt="02">
-                <img src="imgs/c.jpg" alt="03">
+                <img src="imgs/FAMILIA.jpg" alt="i01">
+                <img src="imgs/AMIGOS.jpg" alt="02">
+                <img src="imgs/YO.jpg" alt="03">
  <!--               <img src="imgs/d.jpg" alt="04">
                 <img src="imgs/e.jpg" alt="05">
                 <img src="imgs/f.jpg" alt="06">
@@ -234,33 +252,41 @@
     <section class="timeline">
         <div class="container">
             <div class="time-content">
-                <div class="year">2018</div>
+                <div class="year">2016</div>
                 <div class="left  wow fadeInRight">
-                    <div class="inner">
+                    <div class="inner ">
                         <h3>
-                            Heading test
+                            Computer Science Engineering (Granada University)
                         </h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse illum dicta sit aliquid eius
-                            ex architecto magnam necessitatibus dolore cumque a delectus nisi ipsa labore, ipsum earum
-                            nemo. Distinctio, amet.
                         </p>
+                    </div>
+                </div>
+                <div class="right  wow fadeInleft">
+                    <div style="text-align: center;" class="inner TimelineImages">
+                        
+                        <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/FLVW2NLXGCWW"><img src="imgs/UGR-Logo-PNG2.png"  width="110px" ></a>
                     </div>
                 </div>
 
                 <div class="clearfix"></div>
 
+                <div class="year">2022</div>
                 <div class="right wow fadeInleft">
                     <div class="inner">
                         <h3>
-                            Heading test
+                            CyberSecurity Master's Student (Granada University)
 
                         </h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse illum dicta sit aliquid eius
-                            ex architecto magnam necessitatibus dolore cumque a delectus nisi ipsa labore, ipsum earum
-                            nemo. Distinctio, amet.
+                    
                         </p>
+                    </div>
+                </div>
+                <div class="left  wow fadeInRight">
+                    <div style="text-align: center;" class="inner TimelineImagesLeft">
+                        
+                        <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/FLVW2NLXGCWW"><img src="imgs/UGR-Logo-PNG2.png"  width="110px" ></a>
                     </div>
                 </div>
 
@@ -271,12 +297,14 @@
 
 
     <!-- start our features -->
+    
+    <div id="particles-js4"></div>
     <section class="our-features">
 
         <div class="container wow fadeInDown" data-wow-delay=".5s">
             <h2>Certifications</h2>
-            <div class="featbox wow fadeInRight" data-wow-delay=".1s">
-                <h4>Cibersecurity Analyst</h4>
+            <div class="featbox" data-wow-delay=".1s">
+                <h4>CyberSecurity Analyst</h4>
                 <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/FLVW2NLXGCWW"><img src="imgs/ibm.svg" alt="" ></a>
                 <p>Credential ID: FLVW2NLXGCWW</p>
             </div>
@@ -389,13 +417,14 @@
 
 
     <!-- start contact us -->
+    
     <div class="contact">
         <div class="overlay"></div>
         <div class="container">
             <h2>Contact me</h2>
 
             <div class="form-container wow fadeInDown ">
-                <form action="mailto:salvadorjesus@correo.ugr.es" method="post" enctype="text/plain">
+                <form action="mailto:salvadorjmegias@gmail.com" method="post" enctype="text/plain">
 
                     <div class="left">
                         <input type="text" placeholder="Your Name" name="username">
@@ -420,9 +449,11 @@
 
     <!-- start footer -->
 
-    <div id="particles-js" class="footer " >
+    <div class="footer " >
+        <script>
+            document.write("<img src="+urlLogoWeb+" alt="+" />4lvIX");
+        </script>
         
-        S4lbIX
         <br> <br>
         
         <ol class="wow fadeInUp">
@@ -467,17 +498,18 @@
 
 
 
-    <script src="wow.min.js"></script>
+
+    <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
-        integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
-        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
     <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
     <script src='http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
-    <script src="particles.js"></script>
-    <script src="main.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/fireSpark.js"></script>
+    <script src="js/main.js"></script>
+    
 </body>
 
 </html>

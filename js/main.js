@@ -195,7 +195,7 @@ document.addEventListener("click", (e) => {
 
 // typed.js
 var options = {
-    strings: ["Enthusiastic", "Ambitious", "Open Minded"],
+    strings: ["an Enthusiastic", "an Ambitious", "a Curious"],
     typeSpeed: 80,
     fadeOut: true,
     loop: true,
@@ -314,3 +314,13 @@ particlesJS("particles-js", {
     },
     "retina_detect": true
   });
+
+
+
+
+
+
+
+
+
+
