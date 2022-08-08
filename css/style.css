@@ -1044,9 +1044,9 @@ body {
     text-align: center;
 }
 
-@media(max-width : 565px) {
+@media(max-width : 520px) {
     .testi .featbox {
-        width: 11% !important;
+        width: 65% !important;
         text-align: center;
         margin-bottom: 30px;
     }
