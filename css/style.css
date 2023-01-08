@@ -1116,6 +1116,15 @@ body {
     
 }
 
+.HTB2{
+    background-image: url(../imgs/GoodGames.png) !important;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    border-radius: 25px;
+    
+}
+
 .testi .container div:hover {
     
     cursor: pointer  !important;
