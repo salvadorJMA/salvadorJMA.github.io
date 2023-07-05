@@ -729,6 +729,19 @@ body {
     
 }
 
+.timeline .TimelineImages2 {
+    padding: 15px;
+    width:120px;
+    height: 60px;
+    border-radius: 50% ;
+    background-color: #E3E6E6 ;
+    border: 5px solid #111927;
+     
+}
+.kpmg a{
+    margin-left: -10px;  
+}
+
 .timeline .inner h3 {
     font-weight: bold;
     color: #9eee00;
