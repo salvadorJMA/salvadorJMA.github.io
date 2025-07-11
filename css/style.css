@@ -755,7 +755,9 @@ body {
 .kpmg a{
     margin-left: -10px;  
 }
-
+.kpmg2 a{
+    margin-right: -10px;  
+}
 .timeline .inner h3 {
     font-weight: bold;
     color: #9eee00;
